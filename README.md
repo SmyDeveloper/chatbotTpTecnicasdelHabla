@@ -9,23 +9,23 @@ Mantener una conversación con el chatbot, que responde en tiempo real.
 Ver el historial de la conversación en la misma interfaz, con avatares para usuario y asistente.
 
 ## Requisitos
-Python 3.8+
-Librerías necesarias en requirements.txt
-Cuenta en Groq para acceder a la API y obtener una clave secreta (clave_api)
+### Python 3.8+
+### Librerías necesarias en requirements.txt
+### Cuenta en Groq para acceder a la API y obtener una clave secreta (clave_api)
 ## Instalación
-Clonar el Repositorio
-git clone https://github.com/tu_usuario/tp-chatbot-streamlit.git
-cd tp-chatbot-streamlit (es decir debes ir a la carpeta donde usarás tu chatbot)
-Instalar las Dependencias
-pip install -r requirements.txt
+### Clonar el Repositorio
+### git clone https://github.com/tu_usuario/tp-chatbot-streamlit.git
+### cd tp-chatbot-streamlit (es decir debes ir a la carpeta donde usarás tu chatbot)
+### Instalar las Dependencias
+### pip install -r requirements.txt
 
 ## Configurar la Clave API de Groq
-Añadir tu clave secreta de Groq en Secrets de Streamlit. Puedes configurarla en tu archivo .streamlit/secrets.toml como sigue:
+### Añadir tu clave secreta de Groq en Secrets de Streamlit. Puedes configurarla en tu archivo .streamlit/secrets.toml como sigue:
 toml
-[secrets]
-clave_api = "TU_CLAVE_DE_API"
-Ejecutar la Aplicación
-streamlit run app.py
+### [secrets]
+### clave_api = "TU_CLAVE_DE_API"
+### Ejecutar la Aplicación
+### streamlit run app.py
 
 ## Uso
 Al iniciar la aplicación, se abrirá una interfaz en tu navegador. Ingresa tu nombre, elige el modelo de IA con el que deseas chatear y escribe tus mensajes para interactuar con el chatbot.

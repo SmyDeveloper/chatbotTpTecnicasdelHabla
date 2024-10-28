@@ -9,8 +9,8 @@ Mantener una conversación con el chatbot, que responde en tiempo real.
 Ver el historial de la conversación en la misma interfaz, con avatares para usuario y asistente.
 
 ## Requisitos
-### Python 3.8+
-### Librerías necesarias en requirements.txt
+* Python 3.8+
+* Librerías necesarias en requirements.txt
 ### Cuenta en Groq para acceder a la API y obtener una clave secreta (clave_api)
 ## Instalación
 ### Clonar el Repositorio

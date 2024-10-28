@@ -8,7 +8,7 @@ from groq import Groq
 st.set_page_config(page_title="Mi chat de IA", page_icon="8️⃣", layout="centered")
 
 # Título de la aplicación
-st.image("Logo.jpg", width=150)
+st.image("logo.jpg", width=150)
 st.title("Tp ChatBot - Técnicas del Procesamiento del habla")
 
 # Entrada de texto

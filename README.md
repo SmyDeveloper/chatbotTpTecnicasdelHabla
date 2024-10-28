@@ -1,4 +1,4 @@
-﻿# chatbotTpTecnicasdelHabla
+
  Este repositorio contiene el código para un chatbot de IA implementado en Streamlit. La aplicación permite al usuario interactuar con el modelo de lenguaje natural utilizando la API de Groq, seleccionando entre varios modelos de IA, y visualizando la conversación en una interfaz amigable.
  Descripción
 La aplicación "Mi chat de IA" permite al usuario:

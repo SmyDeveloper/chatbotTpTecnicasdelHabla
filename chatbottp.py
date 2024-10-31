@@ -18,7 +18,7 @@ nombre = st.text_input("¿Cuál es tu nombre?")
 if st.button("Saludar"):
     st.write(f"¡Hola, {nombre}! Bienvenido/a, Gracias por usar mi chatBot")
 
-MODELOS = ['llama3-8b-8192', 'llama3-70b-8192', 'mixtral-8x7b-32768'] # Se modifica en Clase 7
+MODELOS = ['llama3-8b-8192', 'llama3-70b-8192', 'mixtral-8x7b-32768']
 def configurar_pagina():
    
     # Agregamos un título principal a nuestra página
